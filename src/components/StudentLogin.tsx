@@ -71,7 +71,7 @@ export default function StudentLogin() {
             Student Results Portal
           </h2>
           <p className="mt-2 text-sm text-gray-600">
-            Enter your class and admission number to view results
+            Enter your unique code to view results
           </p>
         </div>
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
@@ -97,7 +97,7 @@ export default function StudentLogin() {
             </div>
             <div>
               <label htmlFor="admission" className="block text-sm font-medium text-gray-700">
-                Admission Number (ADM NO)
+                UNIQUE CODE
               </label>
               <input
                 id="admission"
