@@ -68,7 +68,7 @@ export default function StudentLogin() {
         <div className="text-center">
           <GraduationCap className="mx-auto h-12 w-12 text-rose-800" />
           <h2 className="mt-6 text-3xl font-extrabold text-gray-900">
-            Student Results Portal
+            Amrita Student Results Portal
           </h2>
           <p className="mt-2 text-sm text-gray-600">
             Enter your unique code to view results
