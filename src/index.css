@@ -3,18 +3,38 @@
 @tailwind utilities;
 
 @media print {
+  body {
+    background: white !important;
+  }
+  
   body * {
     visibility: hidden;
   }
+  
   .max-w-4xl, .max-w-4xl * {
     visibility: visible;
   }
+  
   .max-w-4xl {
     position: absolute;
     left: 0;
     top: 0;
+    width: 100%;
+    padding: 2rem !important;
+    margin: 0 !important;
+    max-width: none !important;
   }
+  
+  .print\\:hidden {
+    display: none !important;
+  }
+  
   button {
     display: none !important;
+  }
+  
+  @page {
+    size: A4;
+    margin: 20mm;
   }
 }
