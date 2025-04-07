@@ -104,7 +104,7 @@ export default function StudentResults() {
           <p className="font-medium">{student.name}</p>
         </div>
         <div>
-          <p className="text-sm text-gray-600">Admission Number</p>
+          <p className="text-sm text-gray-600">Unique Code</p>
           <p className="font-medium">{student.admission_no}</p>
         </div>
         <div>
