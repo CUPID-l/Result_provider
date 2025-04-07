@@ -54,7 +54,7 @@ export default function StudentResults() {
   }
 
   function calculateTotal() {
-    return results.reduce((sum, result: any) => sum + parseFloat(result.marks), 0);
+    return results.reduce((sum, result: any) => sum + parseFloat(result.marks), 0).toFixed(2);
   }
 
   function calculatePercentage() {
