@@ -200,15 +200,16 @@ export default function AdminDashboard() {
   }
 
   function calculateGrade(marks: number): string {
-    if (marks >= 91) return 'A1';
-    if (marks >= 81) return 'A2';
-    if (marks >= 71) return 'B1';
-    if (marks >= 61) return 'B2';
-    if (marks >= 51) return 'C1';
-    if (marks >= 41) return 'C2';
-    if (marks >= 33) return 'D';
-    return 'E';
-  }
+  if (marks >= 91 && marks <= 100) return 'A1';
+  if (marks >= 81 && marks < 91) return 'A2';
+  if (marks >= 71 && marks < 81) return 'B1';
+  if (marks >= 61 && marks < 71) return 'B2';
+  if (marks >= 51 && marks < 61) return 'C1';
+  if (marks >= 41 && marks < 51) return 'C2';
+  if (marks >= 33 && marks < 41) return 'D';
+  return 'E';
+}
+
 
   async function handleLogout() {
     await supabase.auth.signOut();
