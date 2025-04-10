@@ -159,8 +159,8 @@ export default function StudentResults() {
         </table>
       </div>
       <div className="text-center">
-          <div className="mt-16 pt-4 border-t-2 border-gray-400">
-            <p className="text-sm font-medium text-gray-600">Your Child is promoted to the next grade.</p>
+          <div className="mt-16 pt-4 border-t-2 border-white-400">
+            <p className="text-sm font-medium text-black-600">Your Child is promoted to the next grade.</p>
           </div>
         </div>
     </div>
