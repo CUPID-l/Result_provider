@@ -200,13 +200,13 @@ export default function AdminDashboard() {
   }
 
   function calculateGrade(marks: number): string {
-    if (marks >= 90) return 'A1';
-    if (marks >= 80) return 'A2';
-    if (marks >= 70) return 'B1';
-    if (marks >= 60) return 'B2';
-    if (marks >= 50) return 'C1';
-    if (marks >= 40) return 'C2';
-    if (marks >= 30) return 'D';
+    if (marks >= 91) return 'A1';
+    if (marks >= 81) return 'A2';
+    if (marks >= 71) return 'B1';
+    if (marks >= 61) return 'B2';
+    if (marks >= 51) return 'C1';
+    if (marks >= 41) return 'C2';
+    if (marks >= 33) return 'D';
     return 'E';
   }
 
