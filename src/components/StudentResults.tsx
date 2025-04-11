@@ -161,7 +161,7 @@ export default function StudentResults() {
       <div className="text-center">
           <div className="mt-16 pt-4 border-t-2 border-white-400">
             <p className="text-sm font-bold text-black-600">CONGRATULATIONS!</p>
-            <p className="text-sm font-bold text-black-600">Your child is promoted to the next grade.</p>
+            <p className="text-sm font-bold text-black-600">Your child has been promoted to the next grade.</p>
           </div>
         </div>
     </div>
